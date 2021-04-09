@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;;
+    font-family: 'Montserrat', sans-serif;
 }
 
 
@@ -136,7 +136,7 @@ main{
 }
 
 .songplayed img{
-    max-width: 60px ;
+    max-width: 58px ;
     margin: 15px 15px;
     border-radius: 5%;
     background: black;
@@ -145,14 +145,11 @@ main{
 
 /* DA FARE HOVER SOPRA IMG */
 
-.songartist{
-    width: 10%;
-}
-
 
 .songartist .songname {
     margin-top: 25px;
     font-size:14px ;
+    font-weight: bold;
 }
 
 .songartist .artistname {
@@ -172,6 +169,14 @@ main{
 
 .ctaplayer{
     width: 10%;
+    padding-left: 20px;
+}
+
+
+.ctaplayer a i{
+    margin-top: 35px;
+    padding-right: 10px;
+    color: #b3b3b3;
 }
 
 .controlplayer{
