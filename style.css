@@ -5,7 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
-    
+
 }
 
 
@@ -14,6 +14,13 @@ a{
 }
 
 
+@media (max-width:1025px) {
+    *{
+        overflow: hidden;
+    }
+}
+
+    
 
 
 
@@ -156,6 +163,10 @@ main{
     margin-left: 10px;
 }
 
+.headerbuttonarrow:hover{
+    background: #0f0f0f;
+}
+
 .usernamebutton{
     outline: 0;
     border: 0;
@@ -174,6 +185,10 @@ main{
     margin-right: 20px;
 }
 
+.usernamebutton:hover{
+    background: #1DB954;
+}
+
 .header .usernamebutton span:not(:last-child) {
     margin-right: 10px;
 }
@@ -188,29 +203,51 @@ main{
     float: left;
 }
 
+.column:hover{
+    background: #272727;
+}
 
 .column img{
-    max-width: 160px;
-    padding-top: 20px;
+    width: 160px;
+    height: 160px;
+    padding-top: 10px;
+    border-radius: 1px;
+    cursor: pointer;
 }
 
 .titlerow{
-    margin-top: 20px;
+    margin-top: 15px;
     margin-left: 30px;
+    color: #fff;
+    font-weight: 900;
+    font-weight: bolder;
 
 }
 
 .column{
-    margin-top: 20px;
+    margin-top: 15px;
     margin-left: 30px;
-    width: 200px;
-    height: 240px;
-    background: chartreuse;
+    width: 190px;
+    height: 220px;
+    background: #181818;
     text-align: center;
+    color: #b3b3b3;
+    border-radius: 3%;
 }
 
+.titlecard{
+    font-size: 16px;
+    color: #fff;
+    padding-top: 5px;
+    cursor: pointer;
 
+}
 
+.about{
+    padding-top: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
 
 /* MUSIC PLAYER */
 
@@ -244,8 +281,8 @@ main{
 }
 
 .songartist .artistname {
-    margin: 2px 0px;
-    font-size: 10px;
+    margin: 4px 0px;
+    font-size: 9px;
 
 }
 
